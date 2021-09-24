@@ -1,0 +1,1091 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 32700 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Brandon/Desktop/RollABall/Rollaball2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49835
+Successfully changed project path to: C:/Users/Brandon/Desktop/RollABall/Rollaball2
+C:/Users/Brandon/Desktop/RollABall/Rollaball2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Brandon/Desktop/RollABall/Rollaball2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002544 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2204ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (167ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1150ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.2 MB.
+System memory in use after: 79.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2152.
+Total: 2.339300 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.861000 ms  DeleteObjects: 0.236100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BruteForce-GrassShader
+  artifactKey: Guid(5fc2375fc9902f24fbe3d26329e553ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader using Guid(5fc2375fc9902f24fbe3d26329e553ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4d79bc44ee905e7f2f6803ac03048a') in 0.009693 seconds 
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.092830 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006070 seconds 
+  Import took 0.008629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.703246 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(57e6810d837871c498fd16e12c10d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(57e6810d837871c498fd16e12c10d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d0cdb93a2ea2411bd85aaafd41bc92') in 0.006199 seconds 
+  Import took 0.008842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.977458 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(e523f76609b82b349bfcaa457eb7dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ground.mat using Guid(e523f76609b82b349bfcaa457eb7dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6194c480ee542348825cb64bd6d57a3') in 0.108169 seconds 
+  Import took 0.110971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.730585 seconds.
+  path: Assets/BruteForce-GrassShader/Materials
+  artifactKey: Guid(7fa4d80ff24f4c241b346aa178f0f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials using Guid(7fa4d80ff24f4c241b346aa178f0f5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad9959ec4f258503629e3fd78116e1') in 0.002855 seconds 
+  Import took 0.005673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.329572 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures
+  artifactKey: Guid(7da03ad537eefa940ad534b51a47e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures using Guid(7da03ad537eefa940ad534b51a47e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af21d4aec0b2ebfce692626f0a79fab') in 0.006146 seconds 
+  Import took 0.008786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057356 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/checkerboard.png
+  artifactKey: Guid(98070d144286f2a4991bc02844db5b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/checkerboard.png using Guid(98070d144286f2a4991bc02844db5b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647215bcc103424fff6b44dc5db7588d') in 0.058793 seconds 
+  Import took 0.061486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMuddyPattern.png
+  artifactKey: Guid(85ea986c7f0510e498b3ddeeaba62ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMuddyPattern.png using Guid(85ea986c7f0510e498b3ddeeaba62ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a7b7d91097e5e6ecf94803e1df06cd') in 0.013810 seconds 
+  Import took 0.016500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMask01.png
+  artifactKey: Guid(9dd5094df1a6d804c9ce68d7847e4969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMask01.png using Guid(9dd5094df1a6d804c9ce68d7847e4969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04de3f689796fb79eed4c20cefa7464b') in 0.017739 seconds 
+  Import took 0.020507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GroundColor01.png
+  artifactKey: Guid(7f969087a2b5cf840bdda1c1d1e3a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GroundColor01.png using Guid(7f969087a2b5cf840bdda1c1d1e3a930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459fbc9c872a025be3c51777200745e2') in 0.013515 seconds 
+  Import took 0.016264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Noise02.png
+  artifactKey: Guid(9eb8f1ba60975784ea9768fee3955c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Noise02.png using Guid(9eb8f1ba60975784ea9768fee3955c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c3730546160fec9819834768eb853c') in 0.013565 seconds 
+  Import took 0.016287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Cliff.png
+  artifactKey: Guid(b97e4be25c3932344b0b5b0ffe62377d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Cliff.png using Guid(b97e4be25c3932344b0b5b0ffe62377d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf0646d7705846d8a901c4cfe7c3ca') in 0.013092 seconds 
+  Import took 0.015678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Cliffv2.png
+  artifactKey: Guid(ba86a4af9e5be094690b5afc214215bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Cliffv2.png using Guid(ba86a4af9e5be094690b5afc214215bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df750e2fc55ded9e2640c53e51fd8543') in 0.012733 seconds 
+  Import took 0.015189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt01.png
+  artifactKey: Guid(3bdb253988c80934a896d3e88de65024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt01.png using Guid(3bdb253988c80934a896d3e88de65024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73a353ac1d65954f11fa9483613466f') in 0.012257 seconds 
+  Import took 0.014903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassColor02.png
+  artifactKey: Guid(4e1d764fa7e47f34eae88e37253c2542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassColor02.png using Guid(4e1d764fa7e47f34eae88e37253c2542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff39134b5d797553945b0e0978673ad') in 0.013174 seconds 
+  Import took 0.016057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt02.png
+  artifactKey: Guid(60c0f293ca0c4984d853ab1859579ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Dirt02.png using Guid(60c0f293ca0c4984d853ab1859579ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5801302b6c34bbb7bbd4127e866cf0a8') in 0.013095 seconds 
+  Import took 0.016164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Noise.png
+  artifactKey: Guid(0a3ba5a084ceba648bafc93bf49f9cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Noise.png using Guid(0a3ba5a084ceba648bafc93bf49f9cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd48e64ddca01add7e189df473d647b') in 0.012309 seconds 
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/Chevron.png
+  artifactKey: Guid(3e9984bb4a8fe7140a3a2380897d51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/Chevron.png using Guid(3e9984bb4a8fe7140a3a2380897d51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca72fd69719c8c26d17e16589bf4cb38') in 0.012280 seconds 
+  Import took 0.014989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise03.png
+  artifactKey: Guid(35832e4bcb865be44867dbdb64c65aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise03.png using Guid(35832e4bcb865be44867dbdb64c65aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82ee5215bd52e1d0cd80b7aceff5d09') in 0.013304 seconds 
+  Import took 0.016760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/LongGrassPattern.png
+  artifactKey: Guid(8250ff09005548d488639d4bfc291cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/LongGrassPattern.png using Guid(8250ff09005548d488639d4bfc291cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb4e5a5ac5c028b68c29377cb113db') in 0.015208 seconds 
+  Import took 0.018179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMask02.png
+  artifactKey: Guid(312b3c84e725b884fbf388d04107c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassMask02.png using Guid(312b3c84e725b884fbf388d04107c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6779c8e22ecd0347cb57d9362a547cb7') in 0.015806 seconds 
+  Import took 0.019029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png
+  artifactKey: Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassPattern.png using Guid(5ddef0977dde72343992a79d27da33fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445f766627b5c988e43fc64938631146') in 0.016257 seconds 
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/checkerboardV2.png
+  artifactKey: Guid(02a7b9834cd275645848286c8835c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/checkerboardV2.png using Guid(02a7b9834cd275645848286c8835c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424eeb2593f0c83f16d33da8a3707f8e') in 0.014095 seconds 
+  Import took 0.017555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise04.png
+  artifactKey: Guid(7f25c6183047a8a4bb1552aab341ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise04.png using Guid(7f25c6183047a8a4bb1552aab341ba92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c42e915a52d4e1672c58e1a977967') in 0.015003 seconds 
+  Import took 0.018541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/ember.png
+  artifactKey: Guid(1beab04ec1a278449a790b67f2cd1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/ember.png using Guid(1beab04ec1a278449a790b67f2cd1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc63b188a1fcc74221c6f81763cf305') in 0.012528 seconds 
+  Import took 0.016147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/CookieTest.png
+  artifactKey: Guid(2290a71f74236194997eae7a71e7a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/CookieTest.png using Guid(2290a71f74236194997eae7a71e7a579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ec672344ff5cfcef588e473b89577') in 0.019097 seconds 
+  Import took 0.022379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise02.png
+  artifactKey: Guid(369f6fef0ebe1f14aa6ed86d8e55cc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise02.png using Guid(369f6fef0ebe1f14aa6ed86d8e55cc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f900e20af6bd275603fdd9fa2e0cef') in 0.014812 seconds 
+  Import took 0.018657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/NoiseCloud.png
+  artifactKey: Guid(7dca70292f589e345aef9b57403a46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/NoiseCloud.png using Guid(7dca70292f589e345aef9b57403a46e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186effb703927076e2e2aa388ad01a34') in 0.015548 seconds 
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise.png
+  artifactKey: Guid(529789b31389da34d9a7f98c613bf944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/PerlinNoise.png using Guid(529789b31389da34d9a7f98c613bf944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e944d76d64df083594e36f17633fbbf') in 0.013634 seconds 
+  Import took 0.017174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/GrassColor01.png
+  artifactKey: Guid(e1f3da621d899e341b0c9d832b1d57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/GrassColor01.png using Guid(e1f3da621d899e341b0c9d832b1d57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3cc4bc354bba95772c2af2eb18a7b8') in 0.015732 seconds 
+  Import took 0.018975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png
+  artifactKey: Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/A_Textures/RealGrassPattern.png using Guid(27893100cc1f09647b28e099d53741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740157d0ce30fbc4b88bfe2e583ad6c6') in 0.014046 seconds 
+  Import took 0.017213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.588474 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Blue.mat
+  artifactKey: Guid(3464e1827537f5e40a863740e9cfd56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Blue.mat using Guid(3464e1827537f5e40a863740e9cfd56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484f3bf72e029f2d1834dc2b85916cdc') in 0.095346 seconds 
+  Import took 0.098163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Green.mat
+  artifactKey: Guid(77baa75182bafdb47913b082c3cc76c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Green.mat using Guid(77baa75182bafdb47913b082c3cc76c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1b40e8017c641b663e6380d8f739af') in 0.012905 seconds 
+  Import took 0.015326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/GreenOpaque.mat
+  artifactKey: Guid(56d5cf0c4a070e845bed483331572af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/GreenOpaque.mat using Guid(56d5cf0c4a070e845bed483331572af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9b6dea492ff11b80e1690b11fe993e') in 0.046738 seconds 
+  Import took 0.049170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse03.mat
+  artifactKey: Guid(160dcb84b41a7aa4e8a18c5306eea1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse03.mat using Guid(160dcb84b41a7aa4e8a18c5306eea1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c682e9bbc1d2cfe715f50187ed7e831') in 0.024554 seconds 
+  Import took 0.027181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse02.mat
+  artifactKey: Guid(129f3d6b5f621ad40870140b77ba9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse02.mat using Guid(129f3d6b5f621ad40870140b77ba9c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809254571811cc124441d0dac4317576') in 0.012728 seconds 
+  Import took 0.015645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/CheckerPattern.mat
+  artifactKey: Guid(8bdeb50ccc8afd94097283a27ba2e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/CheckerPattern.mat using Guid(8bdeb50ccc8afd94097283a27ba2e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8027e246ca30215a0c6a63fe2a4016c') in 0.149836 seconds 
+  Import took 0.152485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse.mat
+  artifactKey: Guid(a7973f94dd957e4488f932e86905555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/SimpleDiffuse.mat using Guid(a7973f94dd957e4488f932e86905555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404a4cde60f22102e11d6d06d8c5c39') in 0.014928 seconds 
+  Import took 0.017548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.025822 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard
+  artifactKey: Guid(29b9a0576f609b74fb497b3b77e30b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard using Guid(29b9a0576f609b74fb497b3b77e30b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82503dc19b70f9c423e32af84487407d') in 0.006642 seconds 
+  Import took 0.009394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.870934 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile
+  artifactKey: Guid(c3dfc7aae62c58a438131d3c9767d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile using Guid(c3dfc7aae62c58a438131d3c9767d6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c1b9b01e4f946fd0e3a08153812163') in 0.006396 seconds 
+  Import took 0.009116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074282 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacGrassBall01.mat
+  artifactKey: Guid(6f74ad1eda2c4e74c90e6b8062e6a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacGrassBall01.mat using Guid(6f74ad1eda2c4e74c90e6b8062e6a002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e398a41aef8f35592e1362adbc3f5d') in 0.146488 seconds 
+  Import took 0.149171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass04.mat
+  artifactKey: Guid(5f824aae0d1f6764eb60ccbc6d9a0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass04.mat using Guid(5f824aae0d1f6764eb60ccbc6d9a0733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3316dba731110a5209bcd4ee91b53645') in 0.018504 seconds 
+  Import took 0.021591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacGrassBall02.mat
+  artifactKey: Guid(c71332d8b44e91a4fad92e23d86fb9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacGrassBall02.mat using Guid(c71332d8b44e91a4fad92e23d86fb9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2394f7e910e05124a826f4b1fb899e99') in 0.018057 seconds 
+  Import took 0.020863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass06.mat
+  artifactKey: Guid(744bae16eb8ad5140b193952b809d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass06.mat using Guid(744bae16eb8ad5140b193952b809d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef15c65dbe2bf5c6179a7ff8d6fc371') in 0.114646 seconds 
+  Import took 0.117498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass01.mat
+  artifactKey: Guid(881aae32a05dd1f4a812ec4aa474d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass01.mat using Guid(881aae32a05dd1f4a812ec4aa474d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fb6ecb03d26120c4b4294880873d26') in 0.019801 seconds 
+  Import took 0.022697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass15.mat
+  artifactKey: Guid(3a79e86cd3f9a014cb4af7def6e0312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass15.mat using Guid(3a79e86cd3f9a014cb4af7def6e0312d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90d1befa5de425568fe3502f395dbdc') in 0.017461 seconds 
+  Import took 0.020227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation02.mat
+  artifactKey: Guid(ab90da3e9396f28438f2df0518f03fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation02.mat using Guid(ab90da3e9396f28438f2df0518f03fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c22bad3e9f1b67458d719fd6e388a6') in 0.019210 seconds 
+  Import took 0.021847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass12.mat
+  artifactKey: Guid(139485811a3285e4f9bb39992ce9b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass12.mat using Guid(139485811a3285e4f9bb39992ce9b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb4654d129fd0e864138aea084af5cd') in 0.082691 seconds 
+  Import took 0.085521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation02.mat
+  artifactKey: Guid(ab90da3e9396f28438f2df0518f03fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation02.mat using Guid(ab90da3e9396f28438f2df0518f03fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c22bad3e9f1b67458d719fd6e388a6') in 0.017416 seconds 
+  Import took 0.020134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass08.mat
+  artifactKey: Guid(95fce67aa0f7951478d847dc61e66ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass08.mat using Guid(95fce67aa0f7951478d847dc61e66ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8419b65bae00aabd63a0c708bd9b70') in 0.016364 seconds 
+  Import took 0.019192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass03.mat
+  artifactKey: Guid(0b65020fd5c048848b66f262f83a29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass03.mat using Guid(0b65020fd5c048848b66f262f83a29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c46dadd9536864d07d222c55e49d2b') in 0.019117 seconds 
+  Import took 0.022322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass07.mat
+  artifactKey: Guid(fb1ffbcd6508df44580d437551a94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass07.mat using Guid(fb1ffbcd6508df44580d437551a94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e584ccf1b7e173445b414746e445305') in 0.017545 seconds 
+  Import took 0.020588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass09.mat
+  artifactKey: Guid(f3b46dc66a7cc08429ba6f1071c6dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass09.mat using Guid(f3b46dc66a7cc08429ba6f1071c6dae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9146efddc05c9980cb5550bbf6f8700') in 0.020930 seconds 
+  Import took 0.024135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass02.mat
+  artifactKey: Guid(2b9769741676d154c9841a030c871d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass02.mat using Guid(2b9769741676d154c9841a030c871d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4ae192ebfb008cce1e3119f0591bb0') in 0.019154 seconds 
+  Import took 0.021966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass11.mat
+  artifactKey: Guid(90fc2af646d7aaa4ba14c1e31baec506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass11.mat using Guid(90fc2af646d7aaa4ba14c1e31baec506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fda7631c46b7435bf87e240c0e2dec') in 0.079597 seconds 
+  Import took 0.082559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass14.mat
+  artifactKey: Guid(da28f98e2fe4e3f4b92b2a00abba5548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass14.mat using Guid(da28f98e2fe4e3f4b92b2a00abba5548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bf0a058696a003621020bb0ad14dc5') in 0.019342 seconds 
+  Import took 0.022142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass10.mat
+  artifactKey: Guid(0fd4e90778f2a7446a6e8f5bc3a9400a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass10.mat using Guid(0fd4e90778f2a7446a6e8f5bc3a9400a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438baed4c2795d84a9d028665105e09d') in 0.017852 seconds 
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass13.mat
+  artifactKey: Guid(06dd30149cb91994dbfd8bd972bc28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass13.mat using Guid(06dd30149cb91994dbfd8bd972bc28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6bec1348ab1b92eb32c13286d6ef56') in 0.118218 seconds 
+  Import took 0.121089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass05.mat
+  artifactKey: Guid(6839980003098cb40991663e6ace1b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass05.mat using Guid(6839980003098cb40991663e6ace1b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89a94082d74a4b69fe9bd9fca97ee5') in 0.018241 seconds 
+  Import took 0.020989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass16.mat
+  artifactKey: Guid(a814e3cd12e558d40a3cb9c5f802a5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacMobileGrass16.mat using Guid(a814e3cd12e558d40a3cb9c5f802a5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b67069571cf2741d7d8210076134b83') in 0.015798 seconds 
+  Import took 0.018631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation01.mat
+  artifactKey: Guid(a4348873edfa2c94bbc5f617b8642572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/MacMobile/MacPlaneExplanation01.mat using Guid(a4348873edfa2c94bbc5f617b8642572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c17652b9a7b91a60d58976d63ccafd') in 0.018484 seconds 
+  Import took 0.021299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.967350 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00
+  artifactKey: Guid(95690b32da2b37f44916bdc27d79c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00 using Guid(95690b32da2b37f44916bdc27d79c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b2f27216cd3068416afc03864d5e15') in 0.007310 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064695 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass01.mat
+  artifactKey: Guid(fe18b09ec89e11d468bf1e0dfdc5cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass01.mat using Guid(fe18b09ec89e11d468bf1e0dfdc5cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c8b2b2ae25333fe331a0944d04c1b1') in 0.044716 seconds 
+  Import took 0.047551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite01.mat
+  artifactKey: Guid(e2175cd9d8fed7646a75f1fa770c1a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite01.mat using Guid(e2175cd9d8fed7646a75f1fa770c1a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5ae36b5bf9ef3fc3dd152da451412b') in 0.029655 seconds 
+  Import took 0.032452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite02.mat
+  artifactKey: Guid(f686084abb9fe6446ba6231b30298a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite02.mat using Guid(f686084abb9fe6446ba6231b30298a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389e6a48469c0f716485507741881d85') in 0.021136 seconds 
+  Import took 0.023860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite04.mat
+  artifactKey: Guid(eb331e76ab9929140942a8ec5ac33fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite04.mat using Guid(eb331e76ab9929140942a8ec5ac33fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f168202d83d48c56ca32606f1ee45e') in 0.017916 seconds 
+  Import took 0.020705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass04.mat
+  artifactKey: Guid(8eb19e94ebd59ee47a181085009cb203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass04.mat using Guid(8eb19e94ebd59ee47a181085009cb203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dca74ca5cf4c2d8a9a5179ec637cc57') in 0.145904 seconds 
+  Import took 0.148629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile01.mat
+  artifactKey: Guid(416b772f018cbd249985bfd38edc219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile01.mat using Guid(416b772f018cbd249985bfd38edc219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdcc8d701fda66af49d68172d044a04') in 0.019268 seconds 
+  Import took 0.022126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass02.mat
+  artifactKey: Guid(3d817e9dc6d935144b80cda881a30ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass02.mat using Guid(3d817e9dc6d935144b80cda881a30ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee7300a5c735cba26e36d777afc1fcf') in 0.019855 seconds 
+  Import took 0.022833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile04.mat
+  artifactKey: Guid(cfe17f3f93bcbc048aee9b08b14fe4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile04.mat using Guid(cfe17f3f93bcbc048aee9b08b14fe4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15fc6f7e5a093b4da3cb4effedbc48d') in 0.016776 seconds 
+  Import took 0.019481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite03.mat
+  artifactKey: Guid(6a07917e1e440dc46b5a52b8553cb06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassLite03.mat using Guid(6a07917e1e440dc46b5a52b8553cb06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed965dd762aa690801ff00648f73a37') in 0.015948 seconds 
+  Import took 0.018714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile02.mat
+  artifactKey: Guid(f37da82255812a34eb2e51127cbba28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile02.mat using Guid(f37da82255812a34eb2e51127cbba28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14457ea4997701bccac5195d6fcdba43') in 0.019493 seconds 
+  Import took 0.022303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass03.mat
+  artifactKey: Guid(4dd0622957efdc442a23bb3f96c84bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrass03.mat using Guid(4dd0622957efdc442a23bb3f96c84bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dd9f5dc4e152f0380cd4b8711d2666') in 0.018878 seconds 
+  Import took 0.021592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile03.mat
+  artifactKey: Guid(9ecc2e4ceb1840a48a89a075bc594373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BruteForce-GrassShader/Materials/Standard/Showcase00/BFGrassMobile03.mat using Guid(9ecc2e4ceb1840a48a89a075bc594373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb726b00fa2e251a1b83c53eca3ffc63') in 0.017237 seconds 
+  Import took 0.020084 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 2.268200 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.841000 ms  DeleteObjects: 0.205400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 2.458000 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.989200 ms  DeleteObjects: 0.210700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2207.
+Total: 2.281200 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.844000 ms  DeleteObjects: 0.213200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 488.684816 seconds.
+  path: Assets/Movement.cs
+  artifactKey: Guid(ca0e9e6221a411346acc5fa5b4823eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement.cs using Guid(ca0e9e6221a411346acc5fa5b4823eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89b5c794a84d7b7faf91a666bb20002') in 0.019712 seconds 
+  Import took 0.022397 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 2.548500 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.077100 ms  DeleteObjects: 0.218300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 2.322800 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.889000 ms  DeleteObjects: 0.213100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.498537 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a24a072f113d1904ba68b916f0eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a24a072f113d1904ba68b916f0eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c493f43ab83d3555468b770785b6d1') in 0.009389 seconds 
+  Import took 0.012190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002773 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a24a072f113d1904ba68b916f0eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a24a072f113d1904ba68b916f0eafd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c493f43ab83d3555468b770785b6d1') in 0.002838 seconds 
+  Import took 0.005521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.443165 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(b0146fd346c645f44aee293732cbc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(b0146fd346c645f44aee293732cbc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0430271907b7b59114035400d545497') in 0.002991 seconds 
+  Import took 0.005841 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (983ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 82.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2216.
+Total: 3.415200 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.822500 ms  DeleteObjects: 0.282900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
